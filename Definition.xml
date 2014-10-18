@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<ExtensionObject 
+		Label="FixedContent" 
+		Path="FixedContent" 
+		Description="Prevent objects from scrolling. Only objects with ObjectID including _fixed will be affected. Check the Script.js or http:// for more comments" 
+		Type="document">
+</ExtensionObject>
