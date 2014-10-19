@@ -13,10 +13,10 @@ sub ChangeId_AddFixed
 			if InStr(id, "_fixed") = 0 then
 				
 				prop = objects(i).GetProperties
-				if objType = 5 or objType = 31 or objType = 36 then 
+				if objType = 5 or objType = 31 or objType = 36 then ' search object, container and button
 					prop.Frame.ObjectId = id & "_fixed"
 				else
-					if objType = 12 then
+					if objType = 12 then ' chart object
 						prop.GraphLayout.Frame.ObjectID = id & "_fixed"
 					else
 						prop.Layout.Frame.ObjectID = id & "_fixed"
@@ -33,7 +33,7 @@ sub ChangeId_AddFixed
 end sub
 
 sub ChangeId_RemoveFixed
-' ** Change the id of all selected/active objects by adding _fixed at the end
+' ** Change the id of all selected/active objects by removing _fixed
 ' used for https://github.com/countnazgul/Qlikview-Fixed-Content
 	
 	set sheet = ActiveDocument.ActiveSheet
@@ -47,10 +47,10 @@ sub ChangeId_RemoveFixed
 			if InStr(id, "_fixed") > 0 then
 				
 				prop = objects(i).GetProperties
-				if objType = 5 or objType = 31 or objType = 36 then 
+				if objType = 5 or objType = 31 or objType = 36 then  ' search object, container and button
 					prop.Frame.ObjectId = Replace(id, "_fixed", "")
 				else
-					if objType = 12 then
+					if objType = 12 then ' chart object
 						prop.GraphLayout.Frame.ObjectID = Replace(id, "_fixed", "")
 					else
 						prop.Layout.Frame.ObjectID = Replace(id, "_fixed", "")
