@@ -1,8 +1,8 @@
-// Qva.LoadScript('https://getfirebug.com/firebug-lite-beta.js#startOpened=true', function () {
+//Qva.LoadScript('https://getfirebug.com/firebug-lite-beta.js#startOpened=true', function () {
 	Qva.AddDocumentExtension('FixedContent', function () {
 		this.Document.SetOnUpdateComplete(SetFixed);
 	});
-// });
+//});
 
 function SetFixed() {
 	tabrowDisplay = $('#Tabrow').css('display');
