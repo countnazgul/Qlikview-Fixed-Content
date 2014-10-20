@@ -13,7 +13,7 @@ macro_helper.txt contain two vbscript subs which can help developers adding _fix
 
 Don't forget to add the extension in the app.
 
-Need to be added and fixed position and for top ajax header.
+More info at: http://sstoichev.eu/2014/10/19/fixedcontent-qlikview-extension/
 
-(Screenshots and video will be added soon)
+<iframe width="560" height="315" src="//www.youtube.com/embed/ZDAZtgua8Kw" frameborder="0" allowfullscreen></iframe>
 
