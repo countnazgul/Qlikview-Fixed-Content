@@ -15,5 +15,5 @@ Don't forget to add the extension in the app.
 
 More info at: http://sstoichev.eu/2014/10/19/fixedcontent-qlikview-extension/
 
-<iframe width="560" height="315" src="//www.youtube.com/embed/ZDAZtgua8Kw" frameborder="0" allowfullscreen></iframe>
+[![QlikView FixedContent ](http://img.youtube.com/vi/ZDAZtgua8Kw/0.jpg)](http://www.youtube.com/watch?v=ZDAZtgua8Kw)
 
